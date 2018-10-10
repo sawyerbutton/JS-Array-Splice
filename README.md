@@ -2,13 +2,13 @@
 
 ## 使用Splice方法处理Array的基本技巧
 
-> `splice()`方法允许从javascript数组中插入，删除和替换元素
+> `splice()`方法允许从javascript数组中插入,删除和替换元素
 
 > `splice()`方法接受三+个参数 `Array.splice(start_index, number_of_elements_to_remove)`
 
 1. `start_index` 指的是在数组中插入或移除元素的位置
-2. `number_of_elements_to_remove` 将从`start_index'索引开始，并从数组中删除一个元素
-3. `number_of_elements_to_remove`之后的所有参数都将从`start_index`的位置插入到数组中，插入到数组中的参数可以是任何数据类型，包括字符串，数字，布尔值，对象，函数，null，undefined
+2. `number_of_elements_to_remove` 将从`start_index'索引开始,并从数组中删除一个元素
+3. `number_of_elements_to_remove`之后的所有参数都将从`start_index`的位置插入到数组中,插入到数组中的参数可以是任何数据类型,包括字符串,数字,布尔值,对象,函数,null,undefined
 
 ### 示例-如何将数字插入数组中
 
@@ -57,13 +57,13 @@ console.log(my_array);
 
 1. `splice()`方法从`my_array[1]`开始
 2. 移除`my_array`的`index`为1和2的元素
-3. 最后，从`my_array`的1位置将新参数逐个添加进array中
+3. 最后,从`my_array`的1位置将新参数逐个添加进array中
 
 ### 总结
 
 > 当希望向javascript数组中增加或移除元素时`splice()`方法得心应手
 
-> 如果数组已排序，则`splice()`方法可以很好地添加新元素并精确定位到数组中所需的位置。
+> 如果数组已排序,则`splice()`方法可以很好地添加新元素并精确定位到数组中所需的位置。
 
 > 同样在通过索引从数组中删除元素时`splice()`方法也很得心应手
 
